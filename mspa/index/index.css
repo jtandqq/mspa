@@ -1,0 +1,286 @@
+*{margin: 0;padding: 0;}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  height: 1000px;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.rightBox{
+  position: fixed;
+  overflow: hidden;
+  right: 10px;
+  top: 15px;
+  width: 250px;
+  height: 95%;
+  border: 2px solid black;
+  border-radius: 20px;
+  transition: all .5s;
+  user-select: none;
+}
+.rightBoxNone{
+  width: 0;
+  border: 2px solid rgb(131, 131, 131);
+  transition: all .6s;
+}
+.rightBoxDown{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 15px;
+  height: 80px;
+  margin-top: -40px;
+  color: aliceblue;
+  background-color: rgb(55, 164, 128);
+  border-radius: 0 8px 8px 0;
+  text-align: center;
+  align-content: center;
+}
+.user{
+  position: relative;
+  width: 220px;
+  height: 80px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: aquamarine;
+  z-index: 999;
+}
+.headImg{
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: black;
+  border-radius: 50%;
+}
+.name{
+  position: absolute;
+  margin: 0 ;
+  top: 20px;
+  left: 80px;
+}
+.testw{
+  outline: none;
+  margin: 0 10px;
+  font-size: 13px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(46, 46, 46);
+  background-color: rgba(240, 248, 255, 0);
+}
+.testEdit{
+  background-color: rgba(255, 255, 255, 0.333);
+}
+.edit{
+  display: none;
+  color: rgb(79, 79, 79);
+  font-size: 10px;
+}
+.editSet{
+  display: inline-block;
+}
+.soBoxW{
+  width: 225px;
+  overflow: hidden;
+}
+.soBox{
+  width: 300px;
+}
+.soso{
+  width: 166px;
+  height: 30px;
+  padding: 0 15px;
+  margin: 10px 25px;
+  outline: none;
+  border: 2px solid rgb(47, 192, 192);
+  border-radius: 15px;
+  transition: all .6s;
+}
+.sosoX{
+  width: 125px;
+  margin-right: 0;
+  border-radius: 15px 0 0 15px;
+}
+.soBtn{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  opacity: 0;
+  width: 40px;
+  height: 33px;
+  margin-left: -4px;
+  vertical-align: middle;
+  background-color: rgb(47, 192, 192);
+  border-radius: 15px;
+  transition: all .1s;
+}
+.soBtnX{
+  border-radius: 0 15px 15px 0;
+  opacity: 1;
+}
+.soImg{
+  position: absolute;
+  top: 3px;
+  left: -250px;
+  zoom: .7;
+}
+.boxall{
+  position: relative;
+  width: 200px;
+  height: 320px;
+  margin: 0 25px;
+}
+.boxm{
+  position: relative;
+  overflow: hidden;
+  width: 200px;height: 0px;
+  margin-bottom: 10px;
+  padding: 45px 0 5px 0;
+  background-color: rgb(198, 255, 212);
+  border-radius: 15px;
+  text-align: center;
+
+  transition: all .5s;
+}
+.boxmX{
+  height: 70px;
+  
+}
+.boxs{
+  position: absolute;
+  display: block;
+  top: 0;
+  width: 200px;
+  height: 42px;
+  background-color: rgb(255, 226, 147);
+  border-radius: 15px;
+  text-align: center;
+  align-content: center;
+}
+.boxall li a{
+  display: block;
+}
+.disBlock{display: block;}
+.disNone{display: none;}
+
+
+.enter{
+  margin: 0 25px;
+  width: 200px;height: 80px;
+  background-color: bisque;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  align-content: center;
+}
+.underBtn{
+  position: absolute;
+  bottom: 0;
+  padding-left: 20px;
+  width: 230px;
+  height: 70px;
+  align-content: center;
+  border-radius: 20px;
+  background-color: rgb(255, 230, 240);
+}
+.underBtn li{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 38%;
+  background-color: aqua;
+}
+.underBtn li img{
+  position: absolute;
+}
+.top{
+  top: 0;
+  left: 0;
+  background-color: rgba(222, 94, 211); 
+}
+.share{
+  top: 0;
+  left: -50px;
+  background-color: rgb(177, 255, 169);
+}
+.shareClick{
+  z-index: 999;
+}
+.shareBox{
+  position: absolute;
+  bottom: 50px;
+  width: 250px;
+  height: 0;
+  border-radius: 20px 20px 0 0;
+  background-color: rgb(255, 230, 240);
+  transition: all .4s;
+}
+.shareBoxClick{
+  height: 90px;
+}
+.sun{
+  top: 0;
+  left: -100px;
+  background-color: rgb(62, 255, 255);
+}
+.night{
+  top: -2px;
+  left: -150px;
+  background-color: rgb(0, 0, 70);
+}
+.seting{
+left: -200px;
+background-color: rgb(87, 107, 113);
+}
+.setingBox{
+  position: absolute;
+  top: 80px;
+  padding-top: 20px;
+  width: 250px;
+  height: 0;
+  background-color: rgba(210, 210, 210, 0.9);
+  border-radius: 20px;
+  transition: all .4s;
+  z-index: 990;
+}
+.setingClick{
+  z-index: 999;
+}
+.setingBoxClick{
+  height: 90%; 
+}
+.rightTD{
+  position: fixed;
+  bottom: 20px;
+  right: -40px;
+  width: 40px;
+  height: 90px;
+  transition: all .5s;
+}
+.rightTDX{
+  right: 20px;
+}
+.rightDisplay{
+  width: 40px;
+  height: 40px;
+  align-content: center;
+  text-align: center;
+  border-radius: 38%;
+  color: aliceblue;
+  background-color: rgb(55, 164, 128); 
+  margin-bottom: 10px;
+}
+.outTop{
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  border-radius: 38%;
+  background-color: rgba(222, 94, 211);
+}
